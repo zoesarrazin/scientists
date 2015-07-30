@@ -1,0 +1,13 @@
+<h2>Edit scientists</h2>
+
+
+<form action="/scientists_gif/<%= scientists.id %>">
+  <input type="text" name="name" placeholder="name" value="<%= @scientist.name %>">
+  <input type="text" name="birth" placeholder="birth" value="<%= @scientist.birth %>">
+  <input type="text" name="location" placeholder="location" value="<%= @scientist.location%>">
+  <input type="text" name="content" placeholder="content" value="<%= @scientist.content %>">
+  <input type="text" name="caption" placeholder="caption" value="<%= @scientist.caption %>">
+  <input type="text" name="img_url" placeholder="img_url" value="<%= @scientist.img_url %>">
+ 
+  <input type="submit">
+</form>
